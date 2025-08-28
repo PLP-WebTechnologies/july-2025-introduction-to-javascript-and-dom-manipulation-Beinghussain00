@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hussain musa coffee center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="page-title">Hussaini musa coffee center</h1>
+    <p id="subtitle">I am Hussaini Musa Ringim I am expertize on making coffe and different types of snacks, oya come to my shop and zip some coffee.</p>
+  </header>
+
+  <main>
+    <!-- Part 1: Price & Conditions (visual area) -->
+    <section id="part1" class="card">
+      <h2>Part 1 — Price & Conditions</h2>
+      <p>Score: <span id="score-display">0</span></p>
+      <button id="increase-score">Increase score</button>
+      <p id="score-message" class="message"></p>
+    </section>
+
+    <!-- Part 2: Custom Functions -->
+    <section id="part2" class="card">
+      <h2>Part 2 — Custom Functions</h2>
+      <p>Enter two numbers to see their sum:</p>
+      <input id="numA" type="number" placeholder="Number A"> +
+      <input id="numB" type="number" placeholder="Number B">
+      <button id="calc-sum">Calculate Sum</button>
+      <p>Result: <span id="sum-result">—</span></p>
+    </section>
+
+    <!-- Part 3: Coffee Examples -->
+    <section id="part3" class="card">
+      <h2>Part 3 — Coffee Examples</h2>
+      <button id="generate-list">Generate List (coffee type)</button>
+      <ul id="loop-list"></ul>
+    </section>
+
+    <!-- Part 4: Customers Interactions -->
+    <section id="part4" class="card">
+      <h2>Part 4 — Customers Interactions</h2>
+      <p>Click a color to select a coffee type:</p>
+      <div id="color-palette">
+        <button class="color-btn" data-color="#ffffff">White</button>
+        <button class="color-btn" data-color="#f0f8ff">AliceBlue</button>
+        <button class="color-btn" data-color="#fff3e0">LightPeach</button>
+      </div>
+
+      <p>Additional coffe types:</p>
+      <input id="new-item" placeholder="New item text">
+      <button id="add-item">Click me</button>
+      <ul id="dynamic-list"></ul>
+    </section>
+
+  </main>
+  
+ <script src="script.js"></script>
+</body>
+</html>
+
